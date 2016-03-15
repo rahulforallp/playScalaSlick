@@ -6,6 +6,8 @@
 GET     /                           controllers.HomeController.index
 GET     /list                       controllers.InternsController.list
 
+POST  /addNew                       controllers.InternsController.insert
+
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
